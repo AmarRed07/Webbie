@@ -1,0 +1,107 @@
+
+PARENT AND CHILDREN ELEMENTS:
+
+The child sits on TOP of the Parent. So for example,
+
+<div>
+    <h1>
+        <span>   something else    </span>
+    </h1>
+</div>
+
+The <span></span> is the child too the <h1></h1> and the <h1></h1>is 
+the child too the <div></div> parent.
+
+
+
+---------------------------------- ---------------------------------- ----------------------------------
+
+
+POSITION:
+
+4 kinds:
+Static
+Relative
+Absolute
+Fixed
+
+
+---------------------------------- ---------------------------------- ----------------------------------
+
+- position: static;
+
+All HTML elements are static by default.
+
+.p {
+    position: static;
+}
+
+
+---------------------------------- ---------------------------------- ----------------------------------
+
+- position: relative;
+
+This is when we can move the element RELATIVE to where it orginally was.
+So we can position the element relative too where it was statically.
+
+img {
+    position: relative;
+    left: 30px;
+}
+
+This means that the image is going to be pushed 30px from the left 
+(moves right) from where it was orginally. This will also not affect
+anything else or any other element in the dom. So if there is an element
+to the right of the img, and we push it 30px left from it's relative position,
+then the img is going to cover the element to the right. 
+
+---------------------------------- ---------------------------------- ----------------------------------
+
+-ABSOLUTE POSITION
+
+This is when ( right: 30px; ) would actually move the image to the right.
+The DIV is the parent element and absolute moves the element relative to the 
+parent elements position, inside the div. However, make sure to put the DIV's
+position relative, that is, to put the parents position relative.
+
+
+div {
+    position: relative;
+}
+
+.img {
+    position: absolute;
+    right: 30px;
+}
+
+
+
+---------------------------------- ---------------------------------- ----------------------------------
+
+-absolute & relative positions with DIVS
+
+So, in order to stick a child inside of a parent with relation to the Div, if you
+want to move an element that is inside of a div - you must make the parent element
+the DIVS position Relative and make the Childs - say an img - absoloute.
+
+so if it is in HTML like this:
+
+<div = "parent">
+    <div = "child">
+
+    </div>
+</div>
+
+The CSS would like look this.
+
+.parent {
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    top: 10px; (this moves it 10px from the top of the parents position)
+}
+
+
+

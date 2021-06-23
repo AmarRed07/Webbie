@@ -1,0 +1,125 @@
+/* FONT FAMILY */
+/* font-family: 'Indie Flower', cursive;
+font-family: 'M PLUS Rounded 1c', sans-serif; */
+
+
+body {
+margin: 0;
+text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+    font-family: 'Indie Flower', cursive;
+    font-size: 52px;
+}
+
+h2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 38px;
+}
+
+h3 {
+    font-family: 'Indie Flower', cursive;
+}
+
+p {
+    font-family: monospace;
+    font-size: 16px;
+}
+
+/************************************ HEADER ******************************/
+
+.header {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 20px;
+}
+
+
+.top-cloud {
+position: absolute;
+right: 440px;
+top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 400px;
+}
+
+.font-header {
+    position: relative;
+    padding-top: 120px;
+}
+
+/************************************ MIDDLE CONTAINER ******************************/
+
+
+
+.profile-pic {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 130px;
+    width: 140px;
+    border-radius: 20px;
+    display: inline;
+    left: 30px;
+    align-items: center;
+    box-shadow: 5px 5px 10px;
+    cursor: pointer;
+}
+
+.profile {
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.skills-img {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 140px;
+    width: 140px;
+    border-radius: 20px;
+    display: inline;
+    left: 30px;
+    align-items: center;
+    box-shadow: 5px 5px 10px;
+    cursor: pointer;
+}
+
+
+.h3 {
+    font-size: 28px;
+}
+
+.skill-row-2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.contact-img {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 140px;
+    width: 140px;
+    border-radius: 20px;
+    display: inline;
+    left: 30px;
+    align-items: center;
+    box-shadow: 5px 5px 10px;
+    cursor: pointer;
+}
+
+.contact-me {
+    margin-bottom: 50px;
+}
+
+.email {
+    font-size: 20px;
+    margin: 40px 0;
+}
+
+
+

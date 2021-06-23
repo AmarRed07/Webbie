@@ -1,0 +1,78 @@
+Notes
+
+CSS:
+
+
+- Display: Block;
+This is too put the code in a block, so you can typically use SPANS to change specific things
+inside of the block without affecting the entire block.
+
+.p {
+    display: block;
+}
+
+
+Block emlements you CAN change the width of.
+
+
+---------------------------------- ---------------------------------- ----------------------------------
+
+
+ - Display: Inline; This is when let's say you wanted to change something specific in a <p> </p>
+ tag and don't want to change the whole block. Then you'd:
+
+ .span {
+     Display: inline;
+ } 
+
+ now you can put different tags inside of the <p> </p> and it won't be limited too a block. However,
+ You CANNOT change the width of an inline tag.
+
+ Inline elements only takes up the width of how wide the content is.
+ to change the width of an inline element you'd have to change it too
+ inline-block.
+
+
+
+ ---------------------------------- ---------------------------------- ----------------------------------
+
+
+ - display: inline-block;
+
+ Best of both worlds. You CAN both CHANGE an inline's width and can put a block on the same
+ line. So with inline-block you can put a block on the same line next too another block AND
+ you can change it's width.
+
+ .p {
+     display: inline-block;
+ }
+
+ ---------------------------------- ---------------------------------- ----------------------------------
+
+ - display: none;
+
+
+This simply removes the element from the DOM or Console.
+But it is still in the code.
+
+ .p {
+     display: none;
+ }
+
+---------------------------------- ---------------------------------- ----------------------------------
+
+- visibility: hidden;
+
+This is when the element is is hiding. So a <p></p> will stay take up
+the space where it is supposed to be, but the actual element will be hidden
+leaving a blank space.
+
+.p {
+    visibility: hidden;
+}
+
+
+---------------------------------- ---------------------------------- ----------------------------------
+
+
+

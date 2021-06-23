@@ -1,0 +1,38 @@
+- Center items in the body:
+
+body {
+    text-align: center;
+}
+
+This will align everything in the body to be centered. This works only on inline-block
+or full width elements. If you add a width to a certain element, then text-align 
+won't work on that given tag or element anymore.
+
+---------------------------------- ---------------------------------- ----------------------------------
+
+- MARGINS
+
+Centering a margin:
+
+.element {
+    margin: 0 (top) auto (right) 0 (bottom) auot (left);
+}
+
+4 inputs:
+When putting for inputs into the margin then first input is top, second is right,
+it is counter clockwise from then. 
+
+1 input:
+Will aling all 4 sides
+
+2 inputs:
+First input will be top and bottom, and second input is left and right.
+So:
+
+.element {
+    margin: 2px (top and bottom) 2 px (left and right);
+}
+
+3 inputs:
+    First input is top, second is left and right, third is bottom.
+

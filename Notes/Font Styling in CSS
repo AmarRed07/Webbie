@@ -1,0 +1,77 @@
+TWO MAJOR FONT FAMILIES
+
+1. Serif: (have feet & arms on the letters)
+
+2. Sans-serif: (looks excatly like this ' F ')
+
+
+
+body {
+    font-family: Serif;
+}
+
+This will change every font in the body to Serif.
+
+
+
+---------------------------------- ---------------------------------- ----------------------------------
+Font-Family:
+-MONOSPACE
+
+.element {
+    font-family: monospace;
+}
+
+Each letter will take up the same amount of space in the word. Ideal for coding.
+
+
+---------------------------------- ---------------------------------- ----------------------------------
+font-family:
+-CURSIVE & FANTASY
+
+You rarely want to use these - because they are hard to read.
+
+
+---------------------------------- ---------------------------------- ----------------------------------
+
+TWO FONT INPUTS
+
+When putting in more than one input into font-family, it will read it one by one
+until it picks the elgible one by the DOM. So:
+
+.element {
+    font-family: cursive, fantasy, sans-serif, serif;
+}
+
+The dom will first see if it can display cursive, if not then it will move on 
+to fantasy, then sans-serif, all the way until the first eligble one is chosen.
+
+These are also called "fallbacks"
+
+---------------------------------- ---------------------------------- ----------------------------------
+
+WEBSAFE FONTS
+
+This is where you can look up the most preditble elgible fonts that most broswers will
+be able to display.
+
+You can check the probabilty of a font being eligble at **cssfontstack.com**
+
+---------------------------------- ---------------------------------- ----------------------------------
+FALLBACKS 
+
+You can use fallbacks on CSSFONTSTACK.COM to increase the chances that a user might
+be able to see the fonts you want them too - or rather that their DOM will display.
+
+
+FONTS EMBEDDING
+
+Fonts.google.com 
+
+This is when you can choose custom font styles to create your own fall backs.
+
+.element {
+    font-family: mychoice, mychoice, mychoice;
+}
+
+and the first font-family eligble by the DOM will be displayed.
