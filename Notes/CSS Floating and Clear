@@ -1,0 +1,14 @@
+-CLEAR
+
+If you wanted to float an image to the left, say for a blog, but you wanted the image to just float to the
+left while keeping the header in the middle and the P to go underneath - then you'd use clear.
+
+So the p would be:
+
+.p {
+    clear: left;
+}
+
+If you wanted it on the right, then you would just float it too the right. 
+*******This clears anything to the left of the <p></p> that way the image still floats left but NOT to
+the left of the <p></p>

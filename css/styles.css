@@ -10,8 +10,11 @@ text-align: center;
 
 h1 {
     margin-top: 0;
+    padding-bottom: 30px;
     font-family: 'Indie Flower', cursive;
-    font-size: 52px;
+    font-size: 72px;
+    color: rgb(231, 113, 231);
+    text-shadow: 2px 2px  #02b199;
 }
 
 h2 {
@@ -26,6 +29,14 @@ h3 {
 p {
     font-family: monospace;
     font-size: 16px;
+    line-height: 2;
+}
+
+.pro {
+    font-family: monospace;
+    font-size: 20px;
+    color: rgb(200, 81, 12);
+    text-shadow: 2px 2px greenyellow;
 }
 
 /************************************ HEADER ******************************/
@@ -34,6 +45,7 @@ p {
     background-color: #e4f9f5;
     position: relative;
     padding-top: 20px;
+    height: 140px;
 }
 
 
@@ -48,17 +60,13 @@ top: 40px;
     left: 400px;
 }
 
-.font-header {
-    position: relative;
-    padding-top: 120px;
-}
 
 /************************************ MIDDLE CONTAINER ******************************/
 
 
 
 .profile-pic {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
     height: 130px;
     width: 140px;
@@ -71,9 +79,17 @@ top: 40px;
 }
 
 .profile {
-    align-items: center;
-    margin-bottom: 50px;
+    /* align-items: center; */
+    margin: 20px auto 50px auto;
+    width: 50%;
 }
+
+.profile-p {
+    line-height: 2;
+}
+
+
+
 
 .skills-img {
     margin-bottom: 20px;
@@ -91,13 +107,20 @@ top: 40px;
 
 .h3 {
     font-size: 28px;
+    text-shadow: 2px 2px rgb(107, 215, 235);
 }
 
 .skill-row-2 {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+    margin: 50px auto 50px auto;
+    width: 50%;
 }
 
+.skill-row {
+    width: 50%;
+    margin: 50px auto 50px auto;
+}
 
 .contact-img {
     margin-bottom: 20px;
@@ -113,13 +136,98 @@ top: 40px;
 }
 
 .contact-me {
-    margin-bottom: 50px;
+    width: 50%;
+    margin: 50px auto 40px auto;
 }
 
 .email {
+    padding-top: 20px;
     font-size: 20px;
     margin: 40px 0;
+    
 }
 
 
 
+.welcome {
+    text-shadow: 2px 2px rgb(223, 162, 63);
+}
+
+.my-skills-h2 {
+    text-shadow: 2px 2px rgb(107, 215, 235);
+}
+
+.project-h3 {
+    font-size: 28px;
+    text-shadow: 2px 2px rgb(241, 217, 178);
+}
+
+.project-p {
+    margin-bottom: 60px;
+}
+
+.contact-me-h2 {
+    text-shadow: 2px 2px rgb(241, 217, 178);
+}
+
+.bottom-container {
+    background-color: #ccfaf4 ;
+    height: 280px;
+    margin-top: 0;
+}
+
+.btn-LinkedIn {
+    cursor: pointer;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(16, 92, 179);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.btn-LinkedIn:hover {
+    background-color: rgb(26, 216, 184);
+}
+
+.btn-LinkedIn:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.btn-Portfolio {
+    cursor: pointer;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(95, 3, 148);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.btn-Portfolio:hover {
+    background-color: rgb(204, 15, 163);
+}
+
+.btn-Portfolio:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
