@@ -2,7 +2,6 @@
 /* font-family: 'Indie Flower', cursive;
 font-family: 'M PLUS Rounded 1c', sans-serif; */
 
-
 body {
 margin: 0;
 text-align: center;
@@ -13,8 +12,8 @@ h1 {
     padding-bottom: 30px;
     font-family: 'Indie Flower', cursive;
     font-size: 72px;
-    color: rgb(231, 113, 231);
-    text-shadow: 2px 2px  #02b199;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px  #13dfc3;
 }
 
 h2 {
@@ -42,7 +41,8 @@ p {
 /************************************ HEADER ******************************/
 
 .header {
-    background-color: #e4f9f5;
+    background-image: url("../images/code.png");
+    background-size: cover;
     position: relative;
     padding-top: 20px;
     height: 140px;
@@ -144,9 +144,14 @@ top: 40px;
     padding-top: 20px;
     font-size: 20px;
     margin: 40px 0;
-    
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px  #13dfc3;
 }
 
+.copy-right {
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px  #13dfc3;
+}
 
 
 .welcome {
@@ -171,7 +176,7 @@ top: 40px;
 }
 
 .bottom-container {
-    background-color: #ccfaf4 ;
+    background-image: url("../images/code.png");
     height: 280px;
     margin-top: 0;
 }

@@ -1,0 +1,35 @@
+-COL
+In bootstrap grids, 'col' are the coloumns. Rows are 12 col big.
+So, col-lg-6 and col-lg-6 would take up a whole row.
+
+-lg, md , sm 
+These are going to be the layouts you want the coloumns to interact with. Or display.
+For example, on desktop/laptop lg is used to contorl the coloumns. For example:
+
+class="col-md-12" (this takes up the entire row)
+
+md is used for tablets. So if you want a coloumn to react when it hits a tablet size
+you'd use md. 
+
+sm is used for mobile devices. So for example:
+
+class"col-sm-6" <----- now it is set up to react when the screen gets to a mobile
+device size. but it is only taking up 50% because of the "6".
+
+
+
+
+<div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:yellow; border: 1px solid">
+        4
+    </div>
+        <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:red; border: 1px solid">
+        4
+    </div>
+        <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:blue; border: 1px solid">
+        4
+    </div>
+            <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:blue; border: 1px solid">
+        4
+    </div>
+</div>

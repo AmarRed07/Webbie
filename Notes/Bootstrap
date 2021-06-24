@@ -1,0 +1,26 @@
+Bootstrap has built in CSS code, and HTML code already that you can utilze with
+bootstrap selectors. For example:
+
+in HTML you would have to make the class:
+
+<button class="btn"> Submit </button>
+
+then in CSS:
+
+.btn {
+    code
+    code
+    code
+    code
+    code
+}
+
+However, with bootstrap - all you'd have to do is put in the bootstrap selectors in
+the HTML. So you'd not have to write it in the CSS technically, and it will have 
+predetermined styles for you - that you could of course customize later.
+
+bootstrap:
+
+<button class="btn btn-primary" > Submit </button>
+
+This would give the primary button style to "submit".
